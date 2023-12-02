@@ -110,7 +110,8 @@ h2 {
 
 h3 {
 	font-family: 'Gruppo';
-	font-size: 1.53m;
+	font-size: 1.53em;
+}
 p {
 	/* <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
