@@ -26,6 +26,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Gruppo';
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -88,32 +89,18 @@ html, body {
 }
 
 h1 {
-	/* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet"> */
-	font-family:'Gruppo';
 	font-size: 2em;
-    margin: 0px auto 10px auto;
+    margin: 0px auto 0 auto;
     color: #000000;
 }
 
 h2 {
-	 /*<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet"> */
-	font-family: 'Gruppo';
 	font-size: 1.5em;
     line-height: 1.4;
     color: #000000;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
 }
 
 p {
-	/* <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet"> */
-	font-family: 'Gruppo';
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
@@ -121,14 +108,12 @@ p {
 
 /* This is the links text */
 nav{
-	font-family: 'Gruppo';
 	font-size: 1.3em;
 	width: 400px;
 	margin: 0 auto;
 	border: solid rgb(0, 0, 0);
 	border-width: 3px 0;
 	text-align: center;
-	margin-top: 2em;
 	padding-top: 15px;
 	padding-bottom:15px;
 }
@@ -156,4 +141,19 @@ a:hover{
 	font-weight: bold;
 	font-size: 22px;
 	transition: 0.3s;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.gap{
+	gap: 23px;
+	align-items: center;
 }
